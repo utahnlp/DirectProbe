@@ -105,12 +105,3 @@ venv.bak/
 
 Experiments/*
 data/*
-embedding_scores/*
-templates/*
-config.ini
-probing/tools/output/*
-
-run.sh
-y/*
-
-scripts/*

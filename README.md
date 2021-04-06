@@ -52,22 +52,24 @@ introduction.
    unzip them. Inside each dataset, there are three
    directories:
     
-        - 'embeddings': contains all the embeddings from
-          different representation models.
-            - 'embeddings/layers': contains the embeddings
-              from each layer of BERT-base-cased model.
-        - 'entities': contains the examples of (example,
-          label) pairs for training and test set. Example
-          and label are separated by a tab. Each line is an
-          example.
-        - 'labels': contains the set of possible labels for
-          each task.
+    - 'embeddings': contains all the embeddings from
+    different representation models.
+        - 'embeddings/layers': contains the embeddings
+            from each layer of BERT-base-cased model.
+    - 'entities': contains the examples of (example,
+    label) pairs for training and test set. Example
+    and label are separated by a tab. Each line is an
+    example.
+    - 'labels': contains the set of possible labels for
+    each task.
 
 2. Suppose all the pre-packaged data is put in the directory
    `data`, then we can run an experiment using the
    configuration from `config.ini`.
 
+    ```
         sh run.sh
+    ```
 
 ## Results
 
@@ -109,6 +111,6 @@ details.
 [blog]: http://research.zhouyichu.com/DirectProbe.html
 [pyenv]: https://github.com/pyenv/pyenv
 [Gurobi]: https://www.gurobi.com/
-[Gurobi Installation Gurobi]: https://www.gurobi.com/documentation/9.1/quickstart_mac/software_installation_guid.html
+[Gurobi Installation Guide]: https://www.gurobi.com/documentation/9.1/quickstart_mac/software_installation_guid.html
 [scikit-learn]: https://scikit-learn.org/stable/ 
 [data_url]: https://drive.google.com/drive/folders/1cxYVXA6Oo2QoVowjRhBGqOqoRLUw6thq?usp=sharing
