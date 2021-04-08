@@ -7,7 +7,7 @@
 # Python release: 3.6.0
 #
 # Date: 2019-07-24 10:36:21
-# Last modified: 2021-04-06 15:51:21
+# Last modified: 2021-04-08 09:29:26
 
 """
 Main enterance.
@@ -20,13 +20,13 @@ import configparser
 import numpy as np
 import ExAssist as EA
 
-from probing import utils
-from probing.config import Config
-from probing.probing import Probe
-from probing.clusters import Cluster
-from probing.distanceQ import DistanceQ
-from probing.analyzer import Analyzer
-import probing.logconfig as cfg
+from directprobe import utils
+from directprobe.config import Config
+from directprobe.probing import Probe
+from directprobe.clusters import Cluster
+from directprobe.distanceQ import DistanceQ
+from directprobe.analyzer import Analyzer
+import directprobe.logconfig as cfg
 
 logger = logging.getLogger(__name__)
 

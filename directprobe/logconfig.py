@@ -7,13 +7,13 @@
 # Python release: 3.8.0
 #
 # Date: 2020-07-24 16:12:52
-# Last modified: 2021-04-06 10:30:31
+# Last modified: 2021-04-08 09:30:32
 
 """
 Logger configurations.
 """
 
-PACKAGE_NAME = 'probing'
+PACKAGE_NAME = 'directprobe'
 
 LOG_FILE = PACKAGE_NAME + '.log'
 

@@ -7,7 +7,7 @@
 # Python release: 3.6.0
 #
 # Date: 2020-04-01 10:23:10
-# Last modified: 2021-04-06 10:17:35
+# Last modified: 2021-04-08 09:30:17
 
 """
 Distance Q implementation.
@@ -23,10 +23,10 @@ from tqdm import tqdm
 from tqdm import trange
 import numpy as np
 
-from probing.clusters import ClusterDisList
-from probing.clusters import ClusterDisPair
-from probing.clusters import Cluster
-from probing.config import Config
+from directprobe.clusters import ClusterDisList
+from directprobe.clusters import ClusterDisPair
+from directprobe.clusters import Cluster
+from directprobe.config import Config
 
 logger = logging.getLogger(__name__)
 

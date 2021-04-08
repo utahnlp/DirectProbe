@@ -7,7 +7,7 @@
 # Python release: 3.6.0
 #
 # Date: 2020-03-20 10:42:42
-# Last modified: 2021-04-06 10:17:45
+# Last modified: 2021-04-08 09:30:46
 
 import logging
 from typing import List, Tuple
@@ -22,8 +22,8 @@ from gurobipy import GRB
 # from sklearn.svm import LinearSVC
 from sklearn.svm import SVC
 
-from probing.distanceQ import DistanceQ
-from probing.clusters import Cluster
+from directprobe.distanceQ import DistanceQ
+from directprobe.clusters import Cluster
 
 Tensor = torch.Tensor
 

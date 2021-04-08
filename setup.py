@@ -1,2 +1,2 @@
 from setuptools import setup
-setup(name='probing',  packages=['probing'])
+setup(name='directprobe',  packages=['directprobe'])

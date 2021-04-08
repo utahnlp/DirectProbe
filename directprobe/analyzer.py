@@ -7,7 +7,7 @@
 # Python release: 3.8.0
 #
 # Date: 2020-12-29 13:46:09
-# Last modified: 2020-12-29 15:12:37
+# Last modified: 2021-04-08 09:29:58
 
 """
 Analyzing functions.
@@ -20,8 +20,8 @@ from joblib import Parallel, delayed
 import torch
 
 import numpy as np
-from probing.distanceQ import DistanceQ
-from probing.space import Space
+from directprobe.distanceQ import DistanceQ
+from directprobe.space import Space
 
 logger = logging.getLogger(__name__)
 

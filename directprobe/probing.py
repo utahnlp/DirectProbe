@@ -7,7 +7,7 @@
 # Python release: 3.6.0
 #
 # Date: 2020-02-18 11:05:08
-# Last modified: 2020-12-29 13:50:19
+# Last modified: 2021-04-08 09:31:29
 
 """
 Applying the probing process.
@@ -20,10 +20,10 @@ import torch
 import numpy as np
 from tqdm import tqdm
 
-from probing.space import Space
-from probing.clusters import Cluster
-from probing.distanceQ import DistanceQ
-from probing.config import Config
+from directprobe.space import Space
+from directprobe.clusters import Cluster
+from directprobe.distanceQ import DistanceQ
+from directprobe.config import Config
 
 
 logger = logging.getLogger(__name__)

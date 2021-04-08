@@ -7,7 +7,7 @@
 # Python release: 3.6.0
 #
 # Date: 2019-07-24 09:55:34
-# Last modified: 2020-12-29 15:20:42
+# Last modified: 2021-04-08 09:30:52
 
 """
 Some utility functions, including loading and saving data.
@@ -19,7 +19,7 @@ from typing import List, Tuple, TextIO
 import numpy as np
 import torch
 
-from probing.distanceQ import DistanceQ
+from directprobe.distanceQ import DistanceQ
 
 
 Pair = collections.namedtuple('Pair', ['Entity', 'Label'])
