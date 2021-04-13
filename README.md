@@ -107,6 +107,19 @@ DirectProbe probe the representations vis the configurations
 from `config.ini` file. Please see the `config.ini` for more
 details.
 
+# Citations
+
+```
+@inproceedings{zhou-2021-directprobe,
+    title = "DirectProbe: Studying Representations without Classifiers",
+    author = "Zhou, Yichu and Srikumar, Vivek",
+    booktitle = "Proceedings of the 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+    month = june,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics"
+}
+```
 
 [blog]: http://research.zhouyichu.com/DirectProbe.html
 [pyenv]: https://github.com/pyenv/pyenv
@@ -114,3 +127,5 @@ details.
 [Gurobi Installation Guide]: https://www.gurobi.com/documentation/9.1/quickstart_mac/software_installation_guid.html
 [scikit-learn]: https://scikit-learn.org/stable/ 
 [data_url]: https://drive.google.com/drive/folders/1cxYVXA6Oo2QoVowjRhBGqOqoRLUw6thq?usp=sharing
+
+
