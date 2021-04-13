@@ -68,7 +68,7 @@ introduction.
    configuration from `config.ini`.
 
     ```
-        sh run.sh
+        python main.py
     ```
 
 ## Results
