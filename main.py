@@ -7,7 +7,7 @@
 # Python release: 3.6.0
 #
 # Date: 2019-07-24 10:36:21
-# Last modified: 2021-04-08 09:29:26
+# Last modified: 2022-10-14 15:04:51
 
 """
 Main enterance.
@@ -100,7 +100,7 @@ def load_test(config: Config):
     embeddings_path = config.test_embeddings_path
     logger.info('Loading embeddings from ' + embeddings_path)
     embeddings = utils.load_embeddings(embeddings_path)
-    embeddings = embeddings[:n]
+    # embeddings = embeddings[:n]
     logger.info('Finish loading embeddings...')
 
     assert len(embeddings) == n
